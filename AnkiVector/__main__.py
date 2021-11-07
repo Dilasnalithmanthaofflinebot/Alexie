@@ -65,36 +65,33 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm Isabella❤️
-I'm a Powerful group manager bot With Cool Modules. Made by [Thilina](http://t.me/Thilina2030)
-Hit /help to find my list of available commands
+👋 𝑯𝒆𝒚 𝑻𝒉𝒆𝒓𝒆, 𝑴𝒚 𝑵𝒂𝒎𝒆 𝒊𝒔 [𝑨𝒍𝒆𝒙𝒊𝒆 💝]
+
+𝑰'𝒎 𝒂 𝑷𝒐𝒘𝒆𝒓𝒇𝒖𝒍𝒍 𝑮𝒓𝒐𝒖𝒑 𝑴𝒂𝒏𝒂𝒈𝒆𝒓 𝑩𝒐𝒕 𝑾𝒊𝒕𝒉 𝑪𝒐𝒐𝒍 𝑴𝒐𝒅𝒖𝒍𝒆𝒔. 𝒇𝒆𝒆𝒍 𝒇𝒓𝒆𝒆 𝒕𝒐 𝒂𝒅𝒅 𝒎𝒆 𝒕𝒐 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑𝒔!
+𝑴𝒂𝒅𝒆 𝒃𝒚 [@Dilasnalithmantha123] ⚡
+
  
 """
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="📢Updates Channel", url="https://t.me/Isabellaupdate"
-        ),
-        InlineKeyboardButton(
-            text="👥 Support Group", url="https://t.me/Isabellasupport"
-        ),
+        InlineKeyboardButton(text="🎇𝑴𝒚 𝑵𝒆𝒘𝒔", url="https://t.me/alexiechannel"),
+        InlineKeyboardButton(text="👨‍👩‍👦 𝑴𝒚 𝒈𝒓𝒐𝒖𝒑", url="https://t.me/alexieteam"),
+    ],
+    [
+        InlineKeyboardButton(text="⚡𝑴𝒚 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓💝", url="https://t.me/Dilasnalithmantha123"),
+        InlineKeyboardButton(text="❔𝑴𝒚 𝑪𝒐𝒎𝒎𝒂𝒏𝒅𝒔❗", url="http://t.me/the_Alexie_bot?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="📜Source", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"
-        ),
-        InlineKeyboardButton(
-            text="❔ Help", url="https://t.me/Miss_Isabella_Robot?start=help"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="➕ Add Isabella to your group ➕",
-            url="http://t.me/Miss_Isabella_Robot?startgroup=true",
+            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/the_Alexie_bot?startgroup=true"
         ),
     ],
 ]
+        
+        
+    
+
 
 ANKIVECTOR_IMG = "https://telegra.ph/file/563a7d5fcf06c5a74bdd1.jpg"
 
