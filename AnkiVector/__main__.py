@@ -93,17 +93,17 @@ buttons = [
     
 
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/563a7d5fcf06c5a74bdd1.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/7888b82181b7da5d491e9.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/563a7d5fcf06c5a74bdd1.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/74f9527bc0d2ef7bf5614.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
 ✪ /settings: 
    ◔ in PM: will send you your settings for all supported modules.
    ◔ in a Group: will redirect you to pm, with all that chat's settings.
-    Powered by : @isabellaupdate
+    Powered by : 
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
