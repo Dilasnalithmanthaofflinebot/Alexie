@@ -103,7 +103,7 @@ HELP_STRINGS = f"""
 ✪ /settings: 
    ◔ in PM: will send you your settings for all supported modules.
    ◔ in a Group: will redirect you to pm, with all that chat's settings.
-    Powered by : 
+    Powered by : https://t.me/alexieteam
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -112,7 +112,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Thilina](http://t.me/Thilina2030)"""
+Support them  [@Dilasnalithmantha123](http://t.me/Dilasnalithmantha123)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
