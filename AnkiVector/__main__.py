@@ -235,7 +235,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "<b>Heya, Isabella here :) PM me if you have any questions how to use me!</b>".format(
+            "<b>Heya, Alexia 💝here :) PM me if you have any questions how to use me!</b>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
