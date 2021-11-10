@@ -87,7 +87,7 @@ async def lego(event):
     img = Image.open('./AnkiVector/resources/Internet_20211110_073445.jpeg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
-    pointsize = 500
+    pointsize = 50
     fillcolor = "gold"
     shadowcolor = "blue"
     font = ImageFont.truetype("./AnkiVector/resources/Chopsic.otf", 330)
