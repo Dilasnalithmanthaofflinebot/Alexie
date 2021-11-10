@@ -81,7 +81,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply(' I'm Creating your logo please...wait!')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./AnkiVector/resources/blackbg.jpg')
