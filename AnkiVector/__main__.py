@@ -79,19 +79,20 @@ buttons= [
    
     [
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/MaxrobotSupport"),
+            text="My group🇱🇰", url="https://t.me/alexieteam"),
     ],
    
     [
-        InlineKeyboardButton(text="Bot Updates", url=f"https://t.me/SL_Tech_World"),
+        InlineKeyboardButton(text=" ⚙My Updates", url=f"https://t.me/alexiechannel"),
         InlineKeyboardButton(
             text="youtube channel🎇", url=f"https://youtube.com/channel/UCpqms4GQfRvNFaILifyy2GA"
         ),
     ],
     [
-        InlineKeyboardButton(text="Info & About👨 ", callback_data="aboutmanu_howto"),
+        InlineKeyboardButton(text="💝Developer⚡", url="https://t.me/Dilasnalithmantha123"
+""),
         InlineKeyboardButton(
-            text=" Mᴏʀᴇ 💫", callback_data="aboutmanu_"
+            text=" second Owener💫", url="https://t.me/maxsupun1"
         ),
     ],
   [
