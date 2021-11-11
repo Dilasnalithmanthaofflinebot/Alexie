@@ -85,7 +85,7 @@ buttons= [
     [
         InlineKeyboardButton(text="Bot Updates", url=f"https://t.me/SL_Tech_World"),
         InlineKeyboardButton(
-            text="Rᴇᴘᴏ 📦", url=f"https://github.com/maxsupun"
+            text="youtube channel🎇", url=f"https://youtube.com/channel/UCpqms4GQfRvNFaILifyy2GA"
         ),
     ],
     [
@@ -96,7 +96,7 @@ buttons= [
     ],
   [
         InlineKeyboardButton(
-            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/Max123robot?startgroup=true"),
+            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/the_Alexie_bot?startgroup=true"),
     ], 
    
 ]
