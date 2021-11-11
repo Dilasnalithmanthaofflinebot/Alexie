@@ -1,6 +1,6 @@
 ##  The Isabella Based on Python Telegram Bot ![GitHub repo size](https://img.shields.io/github/repo-size/Thilinaweerasekara2003/Isabella?label=Repo%20Size) ![Last Commit](https://img.shields.io/github/last-commit/Thilinaweerasekara2003/Isabella?color=red&label=Last%20commit&logo=Thilinaweerasekara2003&logoColor=green)
 <p align="center">
-  <img src="https://telegra.ph/file/563a7d5fcf06c5a74bdd1.jpg" width='600"'>
+  <img src="https://telegra.ph/file/9a513c1b60d0f8123efe9.jpg" width='600"'>
 </p>
       # 2 Branches available. this is main brach. swith advaced fr all fetures
 
