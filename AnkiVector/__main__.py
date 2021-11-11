@@ -85,7 +85,7 @@ buttons= [
     [
         InlineKeyboardButton(text=" ⚙My Updates", url=f"https://t.me/alexiechannel"),
         InlineKeyboardButton(
-            text="youtube channel🎇", url=f"https://youtube.com/channel/UCpqms4GQfRvNFaILifyy2GA"
+            text="My music player 🎶", url=f"https://t.me/Alexiegelper"
         ),
     ],
     [
@@ -830,7 +830,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes, I am now online! 💝🎇")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Hey, I am now online! 💝🎇")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
