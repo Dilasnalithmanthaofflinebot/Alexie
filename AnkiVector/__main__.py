@@ -65,25 +65,12 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hey there!👋  My name is Max Robot ⚡️
-I can manage your  group with lots of useful features, feel free to add me to your group
+👋 𝑯𝒆𝒚 𝑻𝒉𝒆𝒓𝒆, 𝑴𝒚 𝑵𝒂𝒎𝒆 𝒊𝒔 𝑨𝒍𝒆𝒙𝒊𝒆 💝
 
+𝑰'𝒎 𝒂 𝑷𝒐𝒘𝒆𝒓𝒇𝒖𝒍𝒍 𝑮𝒓𝒐𝒖𝒑 𝑴𝒂𝒏𝒂𝒈𝒆𝒓 𝑩𝒐𝒕 𝑾𝒊𝒕𝒉 𝑪𝒐𝒐𝒍 𝑴𝒐𝒅𝒖𝒍𝒆𝒔. 𝒇𝒆𝒆𝒍 𝒇𝒓𝒆𝒆 𝒕𝒐 𝒂𝒅𝒅 𝒎𝒆 𝒕𝒐 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑𝒔!
+𝑴𝒂𝒅𝒆 𝒃𝒚 @Dilasnalithmantha123 ⚡
+ 
 """
-
-HELP_STRINGS = f"""
-The following functions will helpful to you to manage your groups
-""".format(
-    dispatcher.bot.first_name,
-    "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
-)
-
-
-DONATE_STRING = """
-Heya, glad to hear you want to donate !
-You can donate to the original writer's of the Base code,
-Support them [Youtube](https://www.youtube.com/channel/UCLziWEeJ-VZuUnZaFUIYTOA),
-"""
-STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2QN6u20iAE"   
 
 BUTTONS = [
        [
@@ -114,26 +101,6 @@ BUTTONS = [
    
 ]
 
-TEXT = """ Hey there! I am Max Robot. A next gen powerful Telegram group manager bot for manage with cool, new, smart features With Advanced AI........... 
-Click `Main menu` button for more information.
-
-Join my [Updates Channel](https://t.me/SL_Tech_World) to get information on all the latest updates.  """
-
-MENU = [
-    [
-        InlineKeyboardButton(
-            text="Main Menu", callback_data="aboutmanu_back"),
-    ],
-     [
-        InlineKeyboardButton(
-            text="Uᴘᴅᴀᴛᴇs", url ="https://t.me/MaxRobot_updates"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/Max123robot?startgroup=true"),
-    ],
-]  
-        
     
 
 
