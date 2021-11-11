@@ -72,7 +72,7 @@ PM_START_TEXT = """
  
 """
 
-BUTTONS = [
+buttons= [
        [
         InlineKeyboardButton(text="Help & Commands⚙️", callback_data="help_back"),
     ],
