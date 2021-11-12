@@ -105,7 +105,7 @@ Click `Main menu` button for more information.
 
 Join my [Updates Channel](https://t.me/SL_Tech_World) to get information on all the latest updates.  """
 
-MENU = [
+menu= [
     [
         InlineKeyboardButton(
             text="Main Menu", callback_data="aboutmanu_back"),
