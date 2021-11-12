@@ -72,35 +72,7 @@ PM_START_TEXT = """
  
 """
 
-buttons= [
-       [
-        InlineKeyboardButton(text="Help & Commands⚙️", url="http://t.me/the_Alexie_bot?start=help"),
-    ],
-   
-    [
-        InlineKeyboardButton(
-            text="My group🇱🇰", url="https://t.me/alexieteam"),
-    ],
-   
-    [
-        InlineKeyboardButton(text=" ⚙My Updates", url=f"https://t.me/alexiechannel"),
-        InlineKeyboardButton(
-            text="My music player 🎶", url=f"https://t.me/Alexiegelper"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="💝Developer⚡", url="https://t.me/Dilasnalithmantha123"
-""),
-        InlineKeyboardButton(
-            text=" second Owener💫", url="https://t.me/maxsupun1"
-        ),
-    ],
-  [
-        InlineKeyboardButton(
-            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/the_Alexie_bot?startgroup=true"),
-    ], 
-   
-]
+
 
     
 
