@@ -71,7 +71,54 @@ PM_START_TEXT = """
 𝑴𝒂𝒅𝒆 𝒃𝒚 @Dilasnalithmantha123 ⚡
  
 """
+buttons= [
+       [
+        InlineKeyboardButton(text="Help & Commands⚙️", callback_data="help_back"),
+    ],
+   
+    [
+        InlineKeyboardButton(
+            text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/MaxrobotSupport"),
+    ],
+   
+    [
+        InlineKeyboardButton(text="Bot Updates", url=f"https://t.me/SL_Tech_World"),
+        InlineKeyboardButton(
+            text="Rᴇᴘᴏ 📦", url=f"https://github.com/maxsupun"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="Info & About👨 ", callback_data="aboutmanu_howto"),
+        InlineKeyboardButton(
+            text=" Mᴏʀᴇ 💫", callback_data="aboutmanu_"
+        ),
+    ],
+  [
+        InlineKeyboardButton(
+            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/Max123robot?startgroup=true"),
+    ], 
+   
+]
 
+TEXT = """ Hey there! I am Max Robot. A next gen powerful Telegram group manager bot for manage with cool, new, smart features With Advanced AI........... 
+Click `Main menu` button for more information.
+
+Join my [Updates Channel](https://t.me/SL_Tech_World) to get information on all the latest updates.  """
+
+MENU = [
+    [
+        InlineKeyboardButton(
+            text="Main Menu", callback_data="aboutmanu_back"),
+    ],
+     [
+        InlineKeyboardButton(
+            text="Uᴘᴅᴀᴛᴇs", url ="https://t.me/MaxRobot_updates"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/Max123robot?startgroup=true"),
+    ],
+]
 
 
     
