@@ -68,38 +68,29 @@ PM_START_TEXT = """
 👋 𝑯𝒆𝒚 𝑻𝒉𝒆𝒓𝒆, 𝑴𝒚 𝑵𝒂𝒎𝒆 𝒊𝒔 𝑨𝒍𝒆𝒙𝒊𝒆 💝
 
 𝑰'𝒎 𝒂 𝑷𝒐𝒘𝒆𝒓𝒇𝒖𝒍𝒍 𝑮𝒓𝒐𝒖𝒑 𝑴𝒂𝒏𝒂𝒈𝒆𝒓 𝑩𝒐𝒕 𝑾𝒊𝒕𝒉 𝑪𝒐𝒐𝒍 𝑴𝒐𝒅𝒖𝒍𝒆𝒔. 𝒇𝒆𝒆𝒍 𝒇𝒓𝒆𝒆 𝒕𝒐 𝒂𝒅𝒅 𝒎𝒆 𝒕𝒐 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑𝒔!
-𝑴𝒂𝒅𝒆 𝒃𝒚 @Dilasnalithmantha123 ⚡
+𝑴𝒂𝒅𝒆 𝒃𝒚  ⚡
  
 """
 buttons= [
        [
-        InlineKeyboardButton(text="Help & Commands⚙️", url="http://t.me/the_Alexie_bot?start=help"),
+        InlineKeyboardButton(text=" Commands Help ❓", url="http://t.me/miss_Alexie_bot?start=help"),
     ],
-   
     [
+        InlineKeyboardButton(text="Website 🙋‍", url="https://dilasnaafk.github.io/"),
         InlineKeyboardButton(
-            text="My group🇱🇰", url="https://t.me/alexieteam"),
-    ],
-   
-    [
-        InlineKeyboardButton(text=" ⚙My Updates", url=f"https://t.me/alexiechannel"),
-        InlineKeyboardButton(
-            text="My music player 🎶", url=f"https://t.me/Alexiegelper"
+                  text="System Stats 💻", callback_data="stats_callback"
         ),
     ],
     [
-        InlineKeyboardButton(text="💝Developer⚡", url="https://t.me/Dilasnalithmantha123"
-""),
-        InlineKeyboardButton(
-            text=" second Owener💫", url="https://t.me/maxsupun1"
-        ),
+        InlineKeyboardButton(text=" Alexie News 🙋‍♀️ ", url=f"https://t.me/SLninjaTeamchannel"),
+        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/SLNinjaTeam"),
     ],
-  [
-        InlineKeyboardButton(
-            text="➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕️", url="http://t.me/the_Alexie_bot?startgroup=true"),
-    ], 
-   
+    [
+        InlineKeyboardButton(text="➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url="http://t.me/miss_Alexie_bot?startgroup=true"),   
+    ],
 ]
+   
+
 
       
 
@@ -108,17 +99,17 @@ buttons= [
     
 
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/618fa4a281664f9489835.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/dd0aa2c83c7323bfb98a2.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/74f9527bc0d2ef7bf5614.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/dd0aa2c83c7323bfb98a2.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
 ✪ /settings: 
    ◔ in PM: will send you your settings for all supported modules.
    ◔ in a Group: will redirect you to pm, with all that chat's settings.
-    Powered by : https://t.me/alexieteam
+    Powered by : https://t.me/SLNinjaTeam
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -127,7 +118,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [@Dilasnalithmantha123](http://t.me/Dilasnalithmantha123)"""
+Support them  [@Dilasnalithmantha](http://t.me/Dilasnalithmantha)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
