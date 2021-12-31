@@ -1,3 +1,5 @@
+import logging
+import time
 import re
 from AnkiVector import pbot as sz
 from io import BytesIO
