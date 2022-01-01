@@ -1,5 +1,5 @@
 import re
-from  import pbot as sz
+from AnkiVector import pbot as sz
 from io import BytesIO
 from requests import get
 from pyrogram import filters
