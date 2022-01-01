@@ -16,14 +16,14 @@ from telethon.tl.types import ChannelParticipantsAdmins
 
 edit_time = 5
 """ =======================YURIKO====================== """
-file1 = "https://telegra.ph/file/1ad7188c8390b5c36b9a8.jpg"
-file2 = "https://telegra.ph/file/73fc670e1dc78d1857b67.jpg"
-file3 = "https://telegra.ph/file/4b29739e7fd46b2111e55.jpg"
-file4 = "https://telegra.ph/file/956b7a50ec1f0a9802b8b.jpg"
-file5 = "https://telegra.ph/file/2fdff4fc6f3e015eb9a51.jpg"
-""" =======================YURIKO====================== """
+file1 = "https://telegra.ph/file/664036cc5be0a9e3d30af.jpg"
+file2 = "https://telegra.ph/file/f97b034b04f8b5754c312.jpg"
+file3 = "https://telegra.ph/file/cda37eb982163f5d14cc6.jpg"
+file4 = "https://telegra.ph/file/fe2f9f1eb2c17f3fe9cf7.jpg"
+file5 = "https://telegra.ph/file/019fa676ae99076a8d409.jpg"
+""" =======================Alexie====================== """
 
-BUTTON = [[Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DeCodeSupport"), Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/DeeCodeBots")]]
+BUTTON = [[Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/SLNinjaTeam"), Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/SLninjaTeamchannel")]]
 
 
 START_TIME = datetime.utcnow()
@@ -58,7 +58,7 @@ async def hmm(yes):
     pm_caption += f"**♡ My Uptime :** `{uptime}`\n\n"
     pm_caption += f"**♡ Telethon Version :** `{version.__version__}`\n\n"
     pm_caption += "**♡ My Team :** [🌺 SL Ninja Team Chat 🌺](https://t.me/SLNinjaTeam)\n"
-    BUTTON = [[Button.url("Support", "https://t.me/SLNinjaTeam"), Button.url("Updates", "https://t.me/SLNinjaTeam")]]
+    BUTTON = [[Button.url("Support", "https://t.me/SLNinjaTeam"), Button.url("Updates", "https://t.me/SLninjaTeamchannel")]]
     on = await aasf.send_file(yes.chat_id, file=file1,caption=pm_caption, buttons=BUTTON)
     
 
