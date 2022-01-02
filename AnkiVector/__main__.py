@@ -65,10 +65,13 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 𝑯𝒆𝒚 𝑻𝒉𝒆𝒓𝒆, 𝑴𝒚 𝑵𝒂𝒎𝒆 𝒊𝒔 𝑨𝒍𝒆𝒙𝒊𝒆 💝
 
-𝑰'𝒎 𝒂 𝑷𝒐𝒘𝒆𝒓𝒇𝒖𝒍𝒍 𝑮𝒓𝒐𝒖𝒑 𝑴𝒂𝒏𝒂𝒈𝒆𝒓 𝑩𝒐𝒕 𝑾𝒊𝒕𝒉 𝑪𝒐𝒐𝒍 𝑴𝒐𝒅𝒖𝒍𝒆𝒔. 𝒇𝒆𝒆𝒍 𝒇𝒓𝒆𝒆 𝒕𝒐 𝒂𝒅𝒅 𝒎𝒆 𝒕𝒐 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑𝒔!
-𝑴𝒂𝒅𝒆 𝒃𝒚  ⚡
+👋ʜᴇʏ ᴛʜᴇʀᴇ, ᴍʏ ɴᴀᴍᴇ ɪs  ᴀʟᴇxɪᴇ❤️
+   
+
+ɪ,ᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴄᴏᴏʟ ᴍᴏᴅᴜʟᴇs. 
+Fᴇᴇʟ ғʀᴇᴇ ᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜʀ ɢʀᴏᴜᴘ
+ᴍᴀᴅᴇ ʙʏ⚡️
  
 """
 buttons= [
