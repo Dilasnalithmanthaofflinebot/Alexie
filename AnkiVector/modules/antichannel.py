@@ -23,9 +23,9 @@ SOFTWARE.
 """
 
 from functools import wraps
-from normbot import pbot as bolt
+from AnkiVector import pbot as bolt
 from pyrogram import filters
-from normbot.utils.sql.antichnl_sql import is_antichannel, antichanl_on, antichanl_off
+from AnkiVector.utils.sql.antichnl_sql import is_antichannel, antichanl_on, antichanl_off
 
 def is_admin(func):
     @wraps(func)
