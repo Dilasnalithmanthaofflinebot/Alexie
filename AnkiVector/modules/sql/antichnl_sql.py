@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Numeric, TEXT
-from normbot.utils.sql import BASE, SESSION, INSERTION_LOCK
+from AnkiVector.utils.sql import BASE, SESSION, INSERTION_LOCK
 
 class Achn(BASE):
     __tablename__ = "achanls"
